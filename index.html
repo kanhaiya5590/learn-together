@@ -1,1 +1,175 @@
-<script>alert("Hello")</script>
+
+<html>
+<head>
+    <title>Node.js MCQ App</title>
+    <style>
+        body { font-family: Arial; padding: 20px; }
+        .q { margin: 20px 0; }
+        button { margin-top: 10px; }
+    </style>
+</head>
+<body>
+    <h1>Node.js MCQ Quiz: All About package.json</h1>
+
+    <div class='q'>
+        <strong>Q1. What file is considered the DNA of a Node.js project?</strong>
+        <ul>
+    <li style="list-style-type: upper-alpha;">index.js</li><li style="list-style-type: upper-alpha;">server.js</li><li style="list-style-type: upper-alpha;">package.json</li><li style="list-style-type: upper-alpha;">app.js</li>
+        </ul>
+        <div>See the Answer : <a href="#" onclick="this.innerHTML='package.json';return false;">Click Me</a></div>
+    </div>
+    
+    <div class='q'>
+        <strong>Q2. Which field defines the entry point of a CommonJS package?</strong>
+        <ul>
+    <li style="list-style-type: upper-alpha;">module</li><li style="list-style-type: upper-alpha;">type</li><li style="list-style-type: upper-alpha;">main</li><li style="list-style-type: upper-alpha;">exports</li>
+        </ul>
+        <div>See the Answer : <a href="#" onclick="this.innerHTML='main';return false;">Click Me</a></div>
+    </div>
+    
+    <div class='q'>
+        <strong>Q3. Which field is used to specify compatible Node.js and npm versions?</strong>
+        <ul>
+    <li style="list-style-type: upper-alpha;">dependencies</li><li style="list-style-type: upper-alpha;">engines</li><li style="list-style-type: upper-alpha;">scripts</li><li style="list-style-type: upper-alpha;">peerDependencies</li>
+        </ul>
+        <div>See the Answer : <a href="#" onclick="this.innerHTML='engines';return false;">Click Me</a></div>
+    </div>
+    
+    <div class='q'>
+        <strong>Q4. What command is used to run a custom script from package.json?</strong>
+        <ul>
+    <li style="list-style-type: upper-alpha;">npm start script</li><li style="list-style-type: upper-alpha;">node script</li><li style="list-style-type: upper-alpha;">npm run <script-name></li><li style="list-style-type: upper-alpha;">npm script <script-name></li>
+        </ul>
+        <div>See the Answer : <a href="#" onclick="this.innerHTML='npm run <script-name>';return false;">Click Me</a></div>
+    </div>
+    
+    <div class='q'>
+        <strong>Q5. Which keyword sets a package as not publicly publishable?</strong>
+        <ul>
+    <li style="list-style-type: upper-alpha;">private</li><li style="list-style-type: upper-alpha;">hidden</li><li style="list-style-type: upper-alpha;">internal</li><li style="list-style-type: upper-alpha;">local</li>
+        </ul>
+        <div>See the Answer : <a href="#" onclick="this.innerHTML='private';return false;">Click Me</a></div>
+    </div>
+    
+    <div class='q'>
+        <strong>Q6. Which section of package.json is used for defining CLI commands?</strong>
+        <ul>
+    <li style="list-style-type: upper-alpha;">cli</li><li style="list-style-type: upper-alpha;">bin</li><li style="list-style-type: upper-alpha;">scripts</li><li style="list-style-type: upper-alpha;">commands</li>
+        </ul>
+        <div>See the Answer : <a href="#" onclick="this.innerHTML='bin';return false;">Click Me</a></div>
+    </div>
+    
+    <div class='q'>
+        <strong>Q7. Which file is generated to lock down exact versions of dependencies?</strong>
+        <ul>
+    <li style="list-style-type: upper-alpha;">package.json</li><li style="list-style-type: upper-alpha;">npm-lock.json</li><li style="list-style-type: upper-alpha;">package-lock.json</li><li style="list-style-type: upper-alpha;">yarn.lock</li>
+        </ul>
+        <div>See the Answer : <a href="#" onclick="this.innerHTML='package-lock.json';return false;">Click Me</a></div>
+    </div>
+    
+    <div class='q'>
+        <strong>Q8. What tool can be used to run scripts in parallel?</strong>
+        <ul>
+    <li style="list-style-type: upper-alpha;">npm-run</li><li style="list-style-type: upper-alpha;">nodemon</li><li style="list-style-type: upper-alpha;">concurrently</li><li style="list-style-type: upper-alpha;">npm-chain</li>
+        </ul>
+        <div>See the Answer : <a href="#" onclick="this.innerHTML='concurrently';return false;">Click Me</a></div>
+    </div>
+    
+    <div class='q'>
+        <strong>Q9. What does the 'exports' field in package.json do?</strong>
+        <ul>
+    <li style="list-style-type: upper-alpha;">Defines test scripts</li><li style="list-style-type: upper-alpha;">Maps scripts to npm</li><li style="list-style-type: upper-alpha;">Controls module entry points</li><li style="list-style-type: upper-alpha;">Installs dev tools</li>
+        </ul>
+        <div>See the Answer : <a href="#" onclick="this.innerHTML='Controls module entry points';return false;">Click Me</a></div>
+    </div>
+    
+    <div class='q'>
+        <strong>Q10. What is the shebang line used for in a CLI file?</strong>
+        <ul>
+    <li style="list-style-type: upper-alpha;">To declare strict mode</li><li style="list-style-type: upper-alpha;">To execute as bash</li><li style="list-style-type: upper-alpha;">To specify Node.js runtime</li><li style="list-style-type: upper-alpha;">To import ES modules</li>
+        </ul>
+        <div>See the Answer : <a href="#" onclick="this.innerHTML='To specify Node.js runtime';return false;">Click Me</a></div>
+    </div>
+    
+    <div class='q'>
+        <strong>Q11. Which field categorizes packages needed only for development?</strong>
+        <ul>
+    <li style="list-style-type: upper-alpha;">dependencies</li><li style="list-style-type: upper-alpha;">devDependencies</li><li style="list-style-type: upper-alpha;">peerDependencies</li><li style="list-style-type: upper-alpha;">optionalDependencies</li>
+        </ul>
+        <div>See the Answer : <a href="#" onclick="this.innerHTML='devDependencies';return false;">Click Me</a></div>
+    </div>
+    
+    <div class='q'>
+        <strong>Q12. What semantic versioning symbol allows minor updates only?</strong>
+        <ul>
+    <li style="list-style-type: upper-alpha;">~</li><li style="list-style-type: upper-alpha;">^</li><li style="list-style-type: upper-alpha;">*</li><li style="list-style-type: upper-alpha;">>=</li>
+        </ul>
+        <div>See the Answer : <a href="#" onclick="this.innerHTML='~';return false;">Click Me</a></div>
+    </div>
+    
+    <div class='q'>
+        <strong>Q13. Which field allows you to define entry points for both ESM and CJS?</strong>
+        <ul>
+    <li style="list-style-type: upper-alpha;">type</li><li style="list-style-type: upper-alpha;">main</li><li style="list-style-type: upper-alpha;">module</li><li style="list-style-type: upper-alpha;">exports</li>
+        </ul>
+        <div>See the Answer : <a href="#" onclick="this.innerHTML='exports';return false;">Click Me</a></div>
+    </div>
+    
+    <div class='q'>
+        <strong>Q14. What field is used to automate tasks like testing or building?</strong>
+        <ul>
+    <li style="list-style-type: upper-alpha;">automation</li><li style="list-style-type: upper-alpha;">npm</li><li style="list-style-type: upper-alpha;">scripts</li><li style="list-style-type: upper-alpha;">workflow</li>
+        </ul>
+        <div>See the Answer : <a href="#" onclick="this.innerHTML='scripts';return false;">Click Me</a></div>
+    </div>
+    
+    <div class='q'>
+        <strong>Q15. What command installs a package as a development dependency?</strong>
+        <ul>
+    <li style="list-style-type: upper-alpha;">npm install <pkg></li><li style="list-style-type: upper-alpha;">npm install --save</li><li style="list-style-type: upper-alpha;">npm install --dev</li><li style="list-style-type: upper-alpha;">npm install --save-dev</li>
+        </ul>
+        <div>See the Answer : <a href="#" onclick="this.innerHTML='npm install --save-dev';return false;">Click Me</a></div>
+    </div>
+    
+    <div class='q'>
+        <strong>Q16. Which tool helps run multiple npm scripts cross-platform?</strong>
+        <ul>
+    <li style="list-style-type: upper-alpha;">nodemon</li><li style="list-style-type: upper-alpha;">npm-chain</li><li style="list-style-type: upper-alpha;">npm-run-all</li><li style="list-style-type: upper-alpha;">concurrently</li>
+        </ul>
+        <div>See the Answer : <a href="#" onclick="this.innerHTML='npm-run-all';return false;">Click Me</a></div>
+    </div>
+    
+    <div class='q'>
+        <strong>Q17. What will happen if 'main' is not specified?</strong>
+        <ul>
+    <li style="list-style-type: upper-alpha;">App crashes</li><li style="list-style-type: upper-alpha;">Node chooses index.js</li><li style="list-style-type: upper-alpha;">npm throws error</li><li style="list-style-type: upper-alpha;">Default to server.js</li>
+        </ul>
+        <div>See the Answer : <a href="#" onclick="this.innerHTML='Node chooses index.js';return false;">Click Me</a></div>
+    </div>
+    
+    <div class='q'>
+        <strong>Q18. What does the '^' in a version number mean in package.json?</strong>
+        <ul>
+    <li style="list-style-type: upper-alpha;">Exact version</li><li style="list-style-type: upper-alpha;">Latest version</li><li style="list-style-type: upper-alpha;">Allow patch and minor updates</li><li style="list-style-type: upper-alpha;">Allow all updates</li>
+        </ul>
+        <div>See the Answer : <a href="#" onclick="this.innerHTML='Allow patch and minor updates';return false;">Click Me</a></div>
+    </div>
+    
+    <div class='q'>
+        <strong>Q19. Which field determines if a package can be published to npm?</strong>
+        <ul>
+    <li style="list-style-type: upper-alpha;">publish</li><li style="list-style-type: upper-alpha;">private</li><li style="list-style-type: upper-alpha;">visibility</li><li style="list-style-type: upper-alpha;">registry</li>
+        </ul>
+        <div>See the Answer : <a href="#" onclick="this.innerHTML='private';return false;">Click Me</a></div>
+    </div>
+    
+    <div class='q'>
+        <strong>Q20. What does the 'type' field set in package.json?</strong>
+        <ul>
+    <li style="list-style-type: upper-alpha;">License</li><li style="list-style-type: upper-alpha;">Module system (ESM/CJS)</li><li style="list-style-type: upper-alpha;">Dependency tree</li><li style="list-style-type: upper-alpha;">Binary type</li>
+        </ul>
+        <div>See the Answer : <a href="#" onclick="this.innerHTML='Module system (ESM/CJS)';return false;">Click Me</a></div>
+    </div>
+    
+</body>
+</html>
